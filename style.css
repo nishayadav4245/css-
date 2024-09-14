@@ -1,0 +1,60 @@
+*{
+    font-family:"courier New";
+}
+h3{
+    color:purple !important;
+}
+h1{
+    color:#b92b27;
+}
+.upvote{
+    background-color: green;
+}
+#signup{
+    background-color: #b92b27;
+}
+/* descendent selector */
+.post a{
+    color:purple;
+    background-color: yellow;
+}
+nav ul li a{
+    color :hotpink;
+}
+.upvote+button{
+    background-color:cornflowerblue ;
+    color:darkblue
+}
+div > input{
+    background-color: darkgray;
+}
+input[type="text"]{
+    color:red;
+}
+input[type="password"]{
+    color:green;
+}
+input[type]{
+    color:aqua;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+ text-decoration: none;   
+}
+button:active{
+    background-color: blueviolet;
+}
+p:active{
+    color:rgb(43, 226, 205)
+}
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight:bold;
+}
+h1::first-letter{
+    color:green;
+}
+
